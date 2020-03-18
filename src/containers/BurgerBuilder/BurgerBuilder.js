@@ -97,11 +97,11 @@ class BurgerBuilder extends Component {
             ingredients: this.state.ingredients,
             price: this.state.totalPrice,
             customer: {
-                name: 'Anna Gombay',
+                name: 'Max Schwarzmüller',
                 address: {
-                    street: 'Dalton',
-                    city: 'Toronto',
-                    country: 'Canada'
+                    street: 'Teststreet 1',
+                    zipCode: '41351',
+                    country: 'Germany'
                 },
                 email: 'test@test.com'
             },
