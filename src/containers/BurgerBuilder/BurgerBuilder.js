@@ -101,7 +101,7 @@ class BurgerBuilder extends Component {
         axios.post('/orders.json', order)
         .then(response => console.log(response))
         .catch(error => console.log(error));
-    }
+    };
 
     render () {
         const disabledInfo = {
